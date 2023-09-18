@@ -1,0 +1,23 @@
+{
+	"author": "artxe2",
+	"description": "JSDoc Subpackage Example",
+	"devDependencies": {
+		"@typescript-eslint/parser": "^6.7.0",
+		"another-lib": "workspace:^",
+		"eslint": "^8.49.0",
+		"eslint-plugin-lube": "^0.1.7",
+		"my-lib": "workspace:^",
+		"typescript": "^5.2.2",
+		"vitest": "^0.34.4"
+	},
+	"keywords": [],
+	"license": "MIT",
+	"name": "jsdoc-subpkg-example",
+	"scripts": {
+		"dts": "pnpm -r dts",
+		"lint": "tsc && eslint --fix .",
+		"test": "vitest run"
+	},
+	"type": "module",
+	"version": "0.0.1"
+}

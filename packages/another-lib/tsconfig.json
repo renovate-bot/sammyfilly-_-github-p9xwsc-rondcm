@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"checkJs": true,
+		"declaration": true,
+		"declarationDir": "types",
+		"declarationMap": true,
+		"emitDeclarationOnly": true,
+		"lib": ["ES2020", "DOM", "DOM.Iterable"],
+		"module": "NodeNext",
+		"outDir": "silences wrong TS error, we don't compile, we only typecheck",
+		"rootDir": "src",
+		"skipLibCheck": true,
+		"strict": true,
+		"target": "ESNext"
+	},
+}
